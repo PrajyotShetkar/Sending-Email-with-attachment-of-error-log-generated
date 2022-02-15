@@ -1,0 +1,173 @@
+INFO 2022-02-15 11:19:16,677 settings 7944 9136 Logging works!
+INFO 2022-02-15 11:33:19,815 settings 5960 11416 Logging works!
+INFO 2022-02-15 11:33:27,952 settings 5352 7640 Logging works!
+INFO 2022-02-15 11:33:29,067 settings 9652 4228 Logging works!
+ERROR 2022-02-15 11:33:30,998 views 9652 7752 Unhandled Exception
+Traceback (most recent call last):
+  File "C:\Users\prajyotps\PycharmProjects\mime\sendemail\myapp\views.py", line 14, in index
+    raise Exception
+Exception
+ERROR 2022-02-15 11:33:31,178 log 9652 7752 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2022-02-15 11:33:31,181 basehttp 9652 7752 "GET / HTTP/1.1" 500 66182
+INFO 2022-02-15 11:34:44,288 settings 2672 11960 Logging works!
+ERROR 2022-02-15 11:34:47,418 views 2672 4536 Unhandled Exception
+Traceback (most recent call last):
+  File "C:\Users\prajyotps\PycharmProjects\mime\sendemail\myapp\views.py", line 15, in index
+    raise Exception
+Exception
+ERROR 2022-02-15 11:34:47,538 log 2672 4536 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2022-02-15 11:34:47,541 basehttp 2672 4536 "GET / HTTP/1.1" 500 66182
+INFO 2022-02-15 11:34:58,111 settings 7648 9400 Logging works!
+INFO 2022-02-15 11:34:59,250 settings 12076 11924 Logging works!
+ERROR 2022-02-15 11:35:01,084 views 12076 2796 Unhandled Exception
+Traceback (most recent call last):
+  File "C:\Users\prajyotps\PycharmProjects\mime\sendemail\myapp\views.py", line 15, in index
+    raise Exception
+Exception
+ERROR 2022-02-15 11:35:01,201 log 12076 2796 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2022-02-15 11:35:01,204 basehttp 12076 2796 "GET / HTTP/1.1" 500 66182
+INFO 2022-02-15 12:20:18,837 settings 9944 11020 Logging works!
+INFO 2022-02-15 12:21:24,196 settings 4192 11140 Logging works!
+INFO 2022-02-15 12:22:22,724 settings 2800 8880 Logging works!
+INFO 2022-02-15 12:23:36,903 settings 13208 5520 Logging works!
+INFO 2022-02-15 12:23:58,843 settings 3400 120 Logging works!
+INFO 2022-02-15 12:27:01,440 settings 1888 8880 Logging works!
+INFO 2022-02-15 12:27:30,674 settings 12468 12428 Logging works!
+ERROR 2022-02-15 12:27:32,981 views 12468 11008 Unhandled Exception
+Traceback (most recent call last):
+  File "C:\Users\prajyotps\PycharmProjects\mime\sendemail\myapp\views.py", line 12, in index
+    raise Exception
+Exception
+ERROR 2022-02-15 12:27:33,181 log 12468 11008 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view myapp.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR 2022-02-15 12:27:33,185 basehttp 12468 11008 "GET / HTTP/1.1" 500 66182
+INFO 2022-02-15 12:27:56,004 settings 12980 13268 Logging works!
+ERROR 2022-02-15 12:27:57,491 log 12980 9480 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: send_mail() takes 0 positional arguments but 1 was given
+ERROR 2022-02-15 12:27:57,493 basehttp 12980 9480 "GET / HTTP/1.1" 500 61914
+INFO 2022-02-15 12:30:18,347 settings 9252 11556 Logging works!
+WARNING 2022-02-15 12:30:20,724 basehttp 9252 11740 "GET / HTTP/1.1" 404 2166
+ERROR 2022-02-15 12:30:24,092 log 9252 11740 Internal Server Error: /api/
+Traceback (most recent call last):
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: send_mail() takes 0 positional arguments but 1 was given
+ERROR 2022-02-15 12:30:24,094 basehttp 9252 11740 "GET /api/ HTTP/1.1" 500 61813
+INFO 2022-02-15 12:31:43,463 settings 348 9300 Logging works!
+WARNING 2022-02-15 12:31:45,522 basehttp 348 12788 "GET / HTTP/1.1" 404 2166
+ERROR 2022-02-15 12:31:50,403 log 348 12788 Internal Server Error: /api/
+Traceback (most recent call last):
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\prajyotps\PycharmProjects\mime\sendemail\myapp\views.py", line 25, in send_mail
+    with open('sendemail/realtycare.txt', 'rb') as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'sendemail/realtycare.txt'
+ERROR 2022-02-15 12:31:50,407 basehttp 348 12788 "GET /api/ HTTP/1.1" 500 65899
+INFO 2022-02-15 12:32:32,622 settings 8336 8508 Logging works!
+WARNING 2022-02-15 12:32:36,011 basehttp 8336 7616 "GET / HTTP/1.1" 404 2166
+ERROR 2022-02-15 12:32:40,454 log 8336 7616 Internal Server Error: /api/
+Traceback (most recent call last):
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\prajyotps\PycharmProjects\mime\sendemail\myapp\views.py", line 31, in send_mail
+    smtp_obj.login('prajyotps@datatemplate.com', 'ScaryHell@123')
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\smtplib.py", line 700, in login
+    raise SMTPNotSupportedError(
+smtplib.SMTPNotSupportedError: SMTP AUTH extension not supported by server.
+ERROR 2022-02-15 12:32:40,457 basehttp 8336 7616 "GET /api/ HTTP/1.1" 500 69919
+INFO 2022-02-15 12:34:56,152 settings 8928 8144 Logging works!
+WARNING 2022-02-15 12:34:58,218 basehttp 8928 7068 "GET / HTTP/1.1" 404 2166
+ERROR 2022-02-15 12:35:02,218 log 8928 7068 Internal Server Error: /api/
+Traceback (most recent call last):
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\prajyotps\PycharmProjects\mime\sendemail\myapp\views.py", line 31, in send_mail
+    smtp_obj.login('prajyotps@datatemplate.com', 'ScaryHell@123')
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\smtplib.py", line 700, in login
+    raise SMTPNotSupportedError(
+smtplib.SMTPNotSupportedError: SMTP AUTH extension not supported by server.
+ERROR 2022-02-15 12:35:02,221 basehttp 8928 7068 "GET /api/ HTTP/1.1" 500 70188
+INFO 2022-02-15 12:36:11,237 settings 6044 6476 Logging works!
+ERROR 2022-02-15 12:36:18,322 log 6044 13072 Internal Server Error: /api/
+Traceback (most recent call last):
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\prajyotps\PycharmProjects\mime\sendemail\myapp\views.py", line 31, in send_mail
+    smtp_obj.login('prajyotps@datatemplate.com', 'ScaryHell@123')
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\smtplib.py", line 700, in login
+    raise SMTPNotSupportedError(
+smtplib.SMTPNotSupportedError: SMTP AUTH extension not supported by server.
+ERROR 2022-02-15 12:36:18,327 basehttp 6044 13072 "GET /api/ HTTP/1.1" 500 70215
+ERROR 2022-02-15 12:36:20,226 log 6044 13072 Internal Server Error: /api/
+Traceback (most recent call last):
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\prajyotps\PycharmProjects\mime\sendemail\myapp\views.py", line 31, in send_mail
+    smtp_obj.login('prajyotps@datatemplate.com', 'ScaryHell@123')
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\smtplib.py", line 700, in login
+    raise SMTPNotSupportedError(
+smtplib.SMTPNotSupportedError: SMTP AUTH extension not supported by server.
+ERROR 2022-02-15 12:36:20,229 basehttp 6044 13072 "GET /api/ HTTP/1.1" 500 70215
+INFO 2022-02-15 12:36:28,517 settings 7088 2024 Logging works!
+INFO 2022-02-15 12:36:29,723 settings 12324 8208 Logging works!
+WARNING 2022-02-15 12:36:32,699 basehttp 12324 2060 "GET / HTTP/1.1" 404 2166
+ERROR 2022-02-15 12:36:36,089 log 12324 2060 Internal Server Error: /api/
+Traceback (most recent call last):
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\prajyotps\PycharmProjects\mime\sendemail\myapp\views.py", line 31, in send_mail
+    smtp_obj.login('prajyotps@datatemplate.com', 'ScaryHell@123')
+  File "C:\Users\prajyotps\AppData\Local\Programs\Python\Python38-32\lib\smtplib.py", line 700, in login
+    raise SMTPNotSupportedError(
+smtplib.SMTPNotSupportedError: SMTP AUTH extension not supported by server.
+ERROR 2022-02-15 12:36:36,093 basehttp 12324 2060 "GET /api/ HTTP/1.1" 500 70078
