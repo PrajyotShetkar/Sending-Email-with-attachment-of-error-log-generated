@@ -4,15 +4,17 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
 
-files = r"C:\Users\prajyotps\PycharmProjects\mime\sendemail\myapp\content\logg.txt"
+files = r"Your absolute url path"
 # Set up users for email
-gmail_user = "prajyotps@datatemplate.com"
-gmail_pwd = "ScaryHell@123"
-recipient = ['prajyotps@datatemplate.com']
+gmail_user = "youremail@gmail.com"
+gmail_pwd = "yourpassword"
+recipient = ['toemail@gmail.com']
 
 
 # Create Module
 def mail(to, subject, text, attach):
+	import logging
+	logging.info("logg is getting generated")
 	msg = MIMEMultipart()
 	msg['From'] = gmail_user
 	msg['To'] = ", ".join(recipient)
